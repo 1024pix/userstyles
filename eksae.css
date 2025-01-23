@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #0d6efd;
+  --color-primary: #239BD6;
 }
 
 body {
@@ -30,4 +30,30 @@ table td {
   font-weight: bold;
   margin-top: 8px;
   padding: 8px 16px;
+}
+
+a.TopBlue {
+  font-size: 16px !important;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
+
+li.TopBlue {
+  list-style-type: none;
+
+}
+
+td.EtatC {
+  background-color: #aadcca;
+  font-weight: bold;
+}
+
+div.modules {
+  padding: 2rem 0;
+}
+
+a.modules__module,  .modules__module--selected, .modules__accueil {
+  font-size: 16px !important;
 }
