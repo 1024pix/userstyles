@@ -33,6 +33,7 @@ table td {
 }
 
 a.TopBlue {
+  display: inline-block;
   font-size: 16px !important;
   background-color: var(--color-primary);
   color: white;
